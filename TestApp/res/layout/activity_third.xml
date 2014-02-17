@@ -1,0 +1,127 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ThirdActivity" >
+<TableRow >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tell us your interests"
+        android:layout_span="2"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</TableRow>
+<TableRow >
+
+    <CheckBox
+        android:id="@+id/chkMovies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Movies" />
+
+    <CheckBox
+        android:id="@+id/chkElect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Electronics" />
+
+</TableRow>
+<TableRow >
+
+    <CheckBox
+        android:id="@+id/chkFood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food" />
+
+    <CheckBox
+        android:id="@+id/chkTravel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Travel" />
+
+</TableRow>
+<TableRow >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_span="2"
+        android:text="Quality of life in this city"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</TableRow>
+<TableRow >
+<RadioGroup
+        android:id="@+id/radioCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_span="2">
+    <RadioButton
+        android:id="@+id/radioButtonAwe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Awesome" />
+
+    <RadioButton
+        android:id="@+id/radioButtongd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Good" />
+</RadioGroup>
+</TableRow>
+<TableRow >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SMS alerts"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ToggleButton
+        android:id="@+id/toggleSMS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton" />
+
+</TableRow>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </GridLayout>
+
+    <Switch
+        android:id="@+id/switchEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subscribe to emails" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Overall Rating"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <RatingBar
+        android:id="@+id/ratingOverall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Feedback" />
+
+</TableLayout>
