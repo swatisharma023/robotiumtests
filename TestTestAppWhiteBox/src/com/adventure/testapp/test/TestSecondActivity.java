@@ -1,9 +1,5 @@
 package com.adventure.testapp.test;
 
-import java.util.ArrayList;
-
-import android.view.View;
-import android.view.ViewGroup;
 import android.widget.ListView;
 import android.widget.TextView;
 

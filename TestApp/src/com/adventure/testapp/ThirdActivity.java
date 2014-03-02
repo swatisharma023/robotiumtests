@@ -70,7 +70,7 @@ public class ThirdActivity extends Activity {
 				}
 				Intent intent = new Intent(ThirdActivity.this, FourthActivity.class);
 				intent.putExtra("city", cityName);
-				intent.putExtra("intersts", intrstStr.toString());
+				intent.putExtra("interests", intrstStr.toString());
 				intent.putExtra("qol", radioButton.getText());
 				intent.putExtra("smsAlerts", toggleSMS.isChecked());
 				intent.putExtra("emails", emailSwitch.isChecked());

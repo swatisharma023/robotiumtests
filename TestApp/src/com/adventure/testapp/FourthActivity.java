@@ -29,7 +29,7 @@ public class FourthActivity extends Activity {
 		if(intent != null){
 			city.setText(intent.getExtras().getString("city"));
 			qol.setText(intent.getExtras().getString("qol"));
-			interests.setText(intent.getExtras().getString("intersts"));
+			interests.setText(intent.getExtras().getString("interests"));
 			sms.setText(intent.getExtras().getBoolean("smsAlerts") ? "Yes" : "No");
 			email.setText(intent.getExtras().getBoolean("emails")? "Yes" : "No");
 			rating.setText(""+intent.getExtras().getFloat("rating"));
